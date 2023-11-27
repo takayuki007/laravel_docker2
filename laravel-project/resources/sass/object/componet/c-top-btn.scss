@@ -1,0 +1,22 @@
+//topページのボタン
+.c-top-btn{
+    display: block;
+    width: 60%;
+    height: 60px;
+    background: $orange;
+    border: none;
+    font-size: $font-size-m;
+    font-family: $font-family-base;
+    color: $white;
+    box-shadow: 4px 4px 8px $gray;
+    margin: 0 auto;
+    @include sp(){
+        height: 48px;
+        font-size: $font-size-s;
+        width: 100%;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}

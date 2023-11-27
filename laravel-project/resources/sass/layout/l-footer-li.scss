@@ -1,0 +1,13 @@
+//フッター部分
+.l-footer-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: $margin-ll;
+
+    @include sp(){
+        margin-bottom: $margin-m;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

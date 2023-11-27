@@ -1,0 +1,13 @@
+//フッター部分
+.l-footer-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    @include sp(){
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: flex-start;
+    }
+}

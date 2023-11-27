@@ -1,0 +1,20 @@
+//買取店候補のリストリンク部分
+.u-li-a{
+    line-height: 104px;
+    font-size: $font-size-m;
+    font-family: $font-family-base;
+    color: $black-green;
+    text-decoration: none;
+
+    @include sp(){
+        font-size: $font-size-ss;
+        line-height: 88px;
+    }
+
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        opacity: .75;
+    }
+}

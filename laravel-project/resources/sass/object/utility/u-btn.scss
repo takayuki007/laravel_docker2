@@ -1,0 +1,27 @@
+//ボタン部分
+.u-btn{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background: $orange;
+    border: none;
+    font-size: $font-size-m;
+    font-family: $font-family-base;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    color: $white;
+    box-shadow: 4px 4px 8px $gray;
+
+    @include sp(){
+        height: 48px;
+        font-size: $font-size-s;
+    }
+
+    &:hover{
+        cursor: pointer;
+        opacity: .75;
+    }
+}
+
+

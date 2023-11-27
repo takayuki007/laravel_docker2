@@ -1,0 +1,6 @@
+//sp非表示部分
+.u-sp-display{
+    @include sp(){
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+//規約やプライバシーポリシーの表示部分
+.c-text-display{
+    width: 100%;
+    height: auto;
+    border: 1px solid $gray;
+    padding: $padding-s;
+    box-sizing: border-box;
+    background-color: $white;
+}

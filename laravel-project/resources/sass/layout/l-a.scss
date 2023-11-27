@@ -1,0 +1,17 @@
+.l-a{
+    font-size: $font-size-m;
+    color: $black-green;
+    text-decoration: none;
+
+    @include sp(){
+        font-size: $font-size-m;
+    }
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        opacity: .75;
+    }
+
+}
+

@@ -1,0 +1,11 @@
+.l-logo{
+    margin-left: $margin-ll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include sp(){
+        font-size: $font-size-m;
+        margin-left: $margin-m;
+    }
+}

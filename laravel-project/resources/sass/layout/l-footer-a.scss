@@ -1,0 +1,18 @@
+//フッター部分
+.l-footer-a{
+    font-size: $font-size-l;
+    color: $black-green;
+    text-decoration: none;
+
+    @include sp(){
+        font-size: $font-size-m;
+    }
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        opacity: .75;
+    }
+
+}
+

@@ -1,0 +1,15 @@
+//検索項目のエリア部分
+.p-search-area{
+    border: 1px solid $gray;
+    width: 100%;
+    height: auto;
+    padding-top: $padding-ll;
+    padding-bottom: $padding-ll;
+    padding-left: 160px;
+    padding-right: 160px;
+    box-sizing: border-box;
+
+    @include sp(){
+        padding: $padding-m;
+    }
+}

@@ -1,0 +1,14 @@
+//topページのフォーム部分
+.p-top-form{
+    z-index: 3;
+    position: relative;
+    top: 180px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+    @include sp(){
+        top: 100px;
+        width: 100%;
+    }
+}

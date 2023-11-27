@@ -1,0 +1,17 @@
+//買取店のリストアイテム部分
+.u-li{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid $gray;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    padding-left: $padding-ll;
+    padding-right: $padding-ll;
+    padding-top: $padding-ss;
+    padding-bottom: $padding-ss;
+
+    @include sp(){
+        padding: $padding-s;
+    }
+}

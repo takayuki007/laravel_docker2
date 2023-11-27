@@ -1,0 +1,11 @@
+//普通の文字部分
+.c-text{
+    font-size: $font-size-m;
+    color: $black-green;
+    margin-bottom: $margin-s;
+
+    @include sp(){
+        font-size: $font-size-ss;
+        margin-bottom: $margin-ss;
+    }
+}

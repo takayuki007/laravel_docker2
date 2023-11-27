@@ -1,0 +1,9 @@
+//topページメインタイトル部分
+.c-top-main-title{
+    font-size: 48px;
+    margin-top: 16px;
+
+    @include sp(){
+        font-size: 24px;
+    }
+}

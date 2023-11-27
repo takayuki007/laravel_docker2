@@ -1,0 +1,12 @@
+//全体
+body{
+    background: $body-bg;
+    color: $black-green;
+    font-size: $font-size-m;
+    font-family: $font-family-base;
+    line-height: 24px;
+
+    @include sp(){
+        font-size: $font-size-s;
+    }
+}

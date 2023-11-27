@@ -1,0 +1,12 @@
+//バナーエリア部分
+.c-banner-area{
+    width: 100%;
+    height: 120px;
+    margin-top: $margin-m;
+    margin-bottom: $margin-m;
+
+    @include sp(){
+        width: 100%;
+        height: 60px;
+    }
+}

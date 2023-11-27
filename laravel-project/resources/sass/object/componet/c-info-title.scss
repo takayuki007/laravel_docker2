@@ -1,0 +1,15 @@
+//店舗詳細タイトル部分
+.c-info-title {
+    width: 100%;
+    height: 60px;
+    background: $green;
+    padding-left: $padding-s;
+    line-height: 60px;
+    box-sizing: border-box;
+
+    @include sp() {
+        height: 48px;
+        line-height: 48px;
+
+    }
+}

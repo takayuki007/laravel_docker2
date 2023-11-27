@@ -1,0 +1,17 @@
+//リンクの基本部分
+.c-a{
+    font-size: $font-size-m;
+    font-family: $font-family-base;
+    color: $black-green;
+    text-decoration: none;
+
+    @include sp(){
+        font-size: $font-size-s;
+    }
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        opacity: .75;
+    }
+}

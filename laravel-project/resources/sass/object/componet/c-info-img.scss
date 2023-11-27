@@ -1,0 +1,15 @@
+//店舗詳細ページの画像部分
+.c-info-img{
+    width: 30%;
+    height: auto;
+    background: $gray;
+    display: block;
+    margin-right: $margin-ll;
+
+    @include sp(){
+        width: 100%;
+        height: 240px;
+        margin-bottom: $margin-m;
+    }
+
+}

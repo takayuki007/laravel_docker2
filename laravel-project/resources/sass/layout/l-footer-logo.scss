@@ -1,0 +1,18 @@
+//フッター部分
+.l-footer-logo{
+    font-size: $font-size-l;
+    color: $black-green;
+    margin-left: $margin-ll;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include sp(){
+        font-size: $font-size-m;
+        margin-bottom: $margin-m;
+        margin-left: 0;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+    }
+}

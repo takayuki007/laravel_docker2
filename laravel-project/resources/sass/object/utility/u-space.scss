@@ -1,0 +1,9 @@
+//topページのスペース部分
+.u-space{
+    height: 810px;
+    width: 100%;
+
+    @include sp(){
+        height: 400px;
+    }
+}

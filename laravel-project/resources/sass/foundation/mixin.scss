@@ -1,0 +1,12 @@
+//スマートフォン用表示
+@mixin sp($breakpoint: sp){
+    @media #{map-get($breakpoints, $breakpoint)}{
+        @content
+    }
+}
+//PC表示用
+@mixin pc($breakpoint: pc){
+    @media #{map-get($breakpoints, $breakpoint)}{
+        @content
+    }
+}

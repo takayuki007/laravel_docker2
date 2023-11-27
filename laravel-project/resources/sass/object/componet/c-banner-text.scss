@@ -1,0 +1,14 @@
+//バナーテキスト部分
+.c-banner-text{
+    color: $red;
+    font-size: $font-size-ll;
+    text-align: center;
+    line-height: 120px;
+    letter-spacing: 1.1em;
+
+    @include sp(){
+        line-height: 60px;
+        font-size: $font-size-s;
+        letter-spacing: 0.4em;
+    }
+}

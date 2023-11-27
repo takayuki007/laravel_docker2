@@ -1,0 +1,12 @@
+.l-footer{
+    height: 72px;
+    width: 100%;
+    background: $green;
+    margin-top: auto;
+
+    @include sp(){
+        width: 100%;
+        height: auto;
+        margin-top: auto;
+    }
+}

@@ -1,0 +1,13 @@
+//top検索部分
+.c-top-search-select{
+    width: 70%;
+    height: 30px;
+    font-size: $font-size-m;
+    margin-right: $margin-s;
+
+    @include sp(){
+        width: 100%;
+        font-size: $font-size-s;
+        margin-right: $margin-ss;
+    }
+}

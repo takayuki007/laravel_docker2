@@ -1,0 +1,13 @@
+//特商法の白色部分
+.u-td{
+    width: 70%;
+    height: 100%;
+    font-family: $font-family-base;
+    font-size: $font-size-m;
+    box-sizing: border-box;
+    padding: $padding-s;
+
+    @include sp(){
+        font-size: $font-size-s;
+    }
+}

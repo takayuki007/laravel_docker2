@@ -1,0 +1,10 @@
+//店舗詳細情報部分
+.c-info-wrapper{
+    width: 70%;
+    height: auto;
+
+    @include sp(){
+        width: 100%;
+        height: auto;
+    }
+}

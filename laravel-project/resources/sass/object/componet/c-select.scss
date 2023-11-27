@@ -1,0 +1,14 @@
+//選択部分
+.c-select{
+    width: 20%;
+    height: 48px;
+    font-size: $font-size-m;
+    margin-bottom: $margin-l;
+    padding: $padding-ss;
+
+    @include sp(){
+        width: 40%;
+        font-size: $font-size-s;
+        height: 48px;
+    }
+}
